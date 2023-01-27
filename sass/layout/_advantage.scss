@@ -1,0 +1,133 @@
+.advantage{
+   
+    background: #3A4574;
+    &__content{
+        padding: 219px 0 215px;
+    }
+    &__slider{
+       
+        .swiper{
+            max-width: 785px;
+            margin: 0 auto;
+        }
+    }
+}
+.slider-advantage{
+    &__wrapper{
+        position: relative;
+    }
+}
+.slide-advantage{
+  min-width: 100%;
+    &-first{
+        &__icon{
+            width: 83px;
+            height: 58px;
+            margin: 0 auto 34px;
+            svg{
+                max-width: 100%;
+                height: auto;
+            }
+        }
+        &__title{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 40px;
+            text-align: center;
+            color: #D3B47F;
+            margin-bottom: 20px;
+            
+        }
+        &__text{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 40px;
+            text-align: center;
+            color: #FFFFFF;
+            margin-bottom: 40px;
+            
+        }
+        &__author{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 40px;
+            text-align: center;
+            letter-spacing: 0.245em;
+            color: #D3B47F;
+            
+        }
+    }
+}
+
+@media  screen and (max-width:1200px){
+    .advantage{
+        .swiper-button-next,.swiper-button-prev{
+            display: none!important;
+        }
+        &__content{
+            padding: 90px 0 ;
+        }
+        .slide-advantage{
+            min-width: 100%;
+              &-first{
+                  &__icon{
+                      width: 43px;
+                      height: 28px;
+                      margin: 0 auto 24px;
+
+                  }
+                  &__title{
+                      font-size: 30px;
+                      line-height: 30px;
+                      
+                  }
+                  &__text{
+                      line-height: 30px;
+                      margin-bottom: 20px;
+                      
+                  }
+                  &__author{
+                      font-size: 20px;
+                      line-height: 30px;
+                  }
+              }
+        }
+    }
+}
+
+
+@media  screen and (max-width:768px){
+    .slide-advantage{
+    
+          &-first{
+          
+              &__title{
+                  font-size: 20px;
+                  line-height: 40px;
+                
+                  
+              }
+              &__text{
+                  line-height: 15px;
+                  margin-bottom: 18px;
+                  
+              }
+              &__author{
+                  font-size: 18px;
+                  line-height: 20px;
+              }
+          }
+    }
+
+    .advantage{
+        &__content{
+            padding: 40px 0 ;
+        }
+    }
+}
