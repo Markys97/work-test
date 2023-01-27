@@ -197,7 +197,7 @@
     }
 
     .item-step{
-       
+       text-align: center;
         &__title{
             font-size: 20px;
             line-height: 28px;
@@ -211,15 +211,12 @@
             flex-shrink: 1;
         }
         &__separator{
-            justify-content: flex-end;
-            &-dot{
-                &::before{
-                   display: none;
-                }
-                &::after{
-                  left: -25px;
-                }
-            }
+        
+           
+        }
+        &__row{
+            flex-direction: column;
+            gap: 12px;
         }
        
     }

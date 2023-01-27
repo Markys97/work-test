@@ -654,6 +654,9 @@ body {
   .step__body li + li {
     margin-top: 18px;
   }
+  .item-step {
+    text-align: center;
+  }
   .item-step__title {
     font-size: 20px;
     line-height: 28px;
@@ -664,14 +667,9 @@ body {
     line-height: 20px;
     flex-shrink: 1;
   }
-  .item-step__separator {
-    justify-content: flex-end;
-  }
-  .item-step__separator-dot::before {
-    display: none;
-  }
-  .item-step__separator-dot::after {
-    left: -25px;
+  .item-step__row {
+    flex-direction: column;
+    gap: 12px;
   }
 }
 .advantage {
