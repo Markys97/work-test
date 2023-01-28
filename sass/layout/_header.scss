@@ -51,6 +51,7 @@
         align-items: center;
         gap: 0 45px;
         // border: 1px solid red;
+        flex-wrap: wrap;
     }
     &__link{
         span{
@@ -222,6 +223,10 @@
             gap: 60px 0;
             flex-direction: column;
             // border: 1px solid red;
+            max-height: 50vh;
+            overflow-y: auto;
+
+            flex-wrap: unset;
         }
        
             
